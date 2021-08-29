@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "frHFAxNB2MPxloIslIkdg1vJ7QsUwkl4LgNRGOthHoSzJXCgXJAgSU2NQ4dF/DzzU3T+pqKReb8e52CJj6HZCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Baze-PC\\source\\repos\\Project Typing\\Project Typing\\Project Typing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Baze-PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

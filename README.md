@@ -44,7 +44,8 @@ class Globals
 
 ### 3.2 Алгоритми и Методи
 При креацијата на играта не користевме познати алгоритми, едноставно користевме потребни методи.
-```private void timer1_Tick(object sender, EventArgs e)
+```cs
+private void timer1_Tick(object sender, EventArgs e)
         {
             
             
@@ -69,7 +70,8 @@ class Globals
                     
                     break;
             }
-        }`````````
+        }
+```
 		
 Движењето на коцките го добивме со методот погоре, каде користиме тајмер на формата кој ја упдејтира позицијата на коцката во простор, зависно од правецот.
 ```lblChar.Left ``` доколку се движи лево, ```lblChar.Top ``` доколку се движи надоле, ```lblChar.Bottom ``` и```lblChar.Right ``` се read-only променлив.

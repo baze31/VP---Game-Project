@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Project_Typing
 {
@@ -15,6 +16,8 @@ namespace Project_Typing
         int score = 0;
         int counter = 0;
         int speed = 5;
+
+        int direc = 1;
         public Form2()
         {
             InitializeComponent();
@@ -45,6 +48,7 @@ namespace Project_Typing
             }
             lblScore.Text = "Score: " + score;
             counter++;
+            
             switch (counter)
             {
                 case 1:
@@ -73,15 +77,43 @@ namespace Project_Typing
                     }
                     break;
             }
-            lblChar.Location = getNewPoint();
+            direc = GetRandomDirec();
+            switch (direc)
+            {
+                case 1:
+                    lblChar.Location = getNewPoint();
+                    break;
+                case 2:
+                    lblChar.Location = getNewPoint2();
+                    break;
+            }
+            
             lblChar.Text = GetRandomChar().ToString().ToUpper();
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            lblChar.Top += speed;
-            if(lblChar.Top >= gamePanel.Height)
+            
+            
+            switch (direc)
             {
-                handleFail();
+                case 1:
+                    lblChar.Top += speed;
+                    if (lblChar.Top >= gamePanel.Height)
+                    {
+                        handleFail();
+                        
+                    }
+                   
+                    break;
+                case 2:
+                    lblChar.Left += speed;
+                    if (lblChar.Left >= gamePanel.Width)
+                    {
+                        handleFail();
+                        
+                    }
+                    
+                    break;
             }
         }
 
@@ -97,6 +129,11 @@ namespace Project_Typing
         {
             int x = xlocation.Next(0, gamePanel.Width-lblChar.Width);
             return new Point(x, 0);
+        }
+        private Point getNewPoint2()
+        {
+            int x = xlocation.Next(0, gamePanel.Height - lblChar.Height);
+            return new Point(0, x);
         }
         Random RandomChar = new Random();
         private char GetRandomChar()
@@ -116,7 +153,17 @@ namespace Project_Typing
             {
                 score += 5;
                 lblScore.Text = "Score: " + score;
-                lblChar.Location = getNewPoint();
+                direc = GetRandomDirec();
+                Debug.WriteLine("This is C#" + direc);
+                switch (direc)
+                {
+                    case 1:
+                        lblChar.Location = getNewPoint();
+                        break;
+                    case 2:
+                        lblChar.Location = getNewPoint2();
+                        break;
+                }
                 lblChar.Text = GetRandomChar().ToString().ToUpper();
                 if (score % 25 ==0)
                 { 
@@ -131,6 +178,11 @@ namespace Project_Typing
                 handleFail();
                 
             }
+        }
+        Random RandomDirec = new Random();
+        private int GetRandomDirec()
+        {
+            return (int)RandomDirec.Next(1, 3);
         }
 
         private void label1_Click(object sender, EventArgs e)

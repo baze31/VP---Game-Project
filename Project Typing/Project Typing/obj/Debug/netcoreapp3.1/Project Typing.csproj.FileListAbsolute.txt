@@ -34,3 +34,22 @@ C:\Users\jackb\Documents\GitHub\VP---Game-Project\Project Typing\Project Typing\
 C:\Users\jackb\Documents\GitHub\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.dll
 C:\Users\jackb\Documents\GitHub\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.pdb
 C:\Users\jackb\Documents\GitHub\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.genruntimeconfig.cache
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\Debug\netcoreapp3.1\Project Typing.exe
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\Debug\netcoreapp3.1\Project Typing.deps.json
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\Debug\netcoreapp3.1\Project Typing.runtimeconfig.json
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\Debug\netcoreapp3.1\Project Typing.runtimeconfig.dev.json
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\Debug\netcoreapp3.1\Project Typing.dll
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\Debug\netcoreapp3.1\Project Typing.pdb
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.csprojAssemblyReference.cache
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project_Typing.Form1 - Copy (2).resources
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project_Typing.Form1 - Copy - Copy.resources
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project_Typing.Form1 - Copy.resources
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project_Typing.Form1.resources
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project_Typing.Form2.resources
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.csproj.GenerateResource.cache
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.AssemblyInfoInputs.cache
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.AssemblyInfo.cs
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.csproj.CoreCompileInputs.cache
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.dll
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.pdb
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.genruntimeconfig.cache

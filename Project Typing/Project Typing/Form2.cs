@@ -61,11 +61,11 @@ namespace Project_Typing
                     {
                         Globals.high_score = score;
                         message = "New High Score: " + score;
+                        Globals.save_file();
                     }
                     string title = "Game Over";
                     MessageBoxButtons buttons = MessageBoxButtons.OK;
                     DialogResult result = MessageBox.Show(message, title, buttons);
-                    
                     if (result == DialogResult.OK)
                     {
                         game_over();
@@ -125,9 +125,6 @@ namespace Project_Typing
                         speed = 2 * ((score / 25)+1);
                     }
                 }
-                    
-                
-
             }
             else
             {

@@ -1,0 +1,5 @@
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\publish\Project Typing.exe
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\publish\Project Typing.dll
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\publish\Project Typing.deps.json
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\publish\Project Typing.runtimeconfig.json
+C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\bin\publish\Project Typing.pdb

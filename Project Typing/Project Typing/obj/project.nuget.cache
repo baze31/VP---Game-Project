@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QISiCLN+wcb8qcYPYDbPJhc5vN3Xxsz7Fkjn/nu33vpD1uMqJRd76wgES/nCS3pK/GmqQ6MpIvCWG8YqsqRXug==",
+  "dgSpecHash": "rnSzNz6tynA7Lh3snH6dfIAOqWvgb2HCVBV7e7mLi1aVKqaFlElRsLdcxvpHTIpV1mqge0/K4Wx3Jxktl0/4aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jackb\\Documents\\GitHub\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Baze-PC\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Baze-PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }

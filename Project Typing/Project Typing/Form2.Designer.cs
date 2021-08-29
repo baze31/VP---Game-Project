@@ -108,7 +108,7 @@ namespace Project_Typing
             this.Controls.Add(this.gamePanel);
             this.KeyPreview = true;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Type for your life";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form2_KeyPress);
             this.gamePanel.ResumeLayout(false);

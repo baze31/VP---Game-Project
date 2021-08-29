@@ -28,7 +28,10 @@ namespace Project_Typing
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HighScore:");
+            string message = "HighScore: " + Globals.high_score;
+            string title = "High Score";
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            MessageBox.Show(message, title, buttons);
         }
 
         private void button3_Click(object sender, EventArgs e)

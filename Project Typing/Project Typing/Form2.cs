@@ -27,27 +27,61 @@ namespace Project_Typing
         {
 
         }
-
+        private void game_over()
+        {
+            this.Hide();
+            Form f1 = new Form1();
+            f1.ShowDialog();
+        }
         private void lblChar_Click(object sender, EventArgs e)
         {
 
         }
+        private void handleFail()
+        {
+            if (score - 5 >= 0)
+            {
+                score -= 5;
+            }
+            lblScore.Text = "Score: " + score;
+            counter++;
+            switch (counter)
+            {
+                case 1:
+                    lblLives.Text = "Lives: O O X";
+                    break;
+                case 2:
+                    lblLives.Text = "Lives: O X X";
+                    break;
+                case 3:
+                    lblLives.Text = "Lives: X X X";
+                    gameTimer.Stop();
+                    string message = "Score: " + score;
+                    if (score > Globals.high_score)
+                    {
+                        Globals.high_score = score;
+                        message = "New High Score: " + score;
+                    }
+                    string title = "Game Over";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    DialogResult result = MessageBox.Show(message, title, buttons);
+                    
+                    if (result == DialogResult.OK)
+                    {
+                        game_over();
 
+                    }
+                    break;
+            }
+            lblChar.Location = getNewPoint();
+            lblChar.Text = GetRandomChar().ToString().ToUpper();
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblChar.Top += speed;
             if(lblChar.Top >= gamePanel.Height)
             {
-                lblChar.Location = getNewPoint();
-                counter++;
-                
-                if (counter == 3)
-                {
-                    gameTimer.Stop();
-                    MessageBox.Show("Game Over");
-
-                }
-
+                handleFail();
             }
         }
 
@@ -81,14 +115,14 @@ namespace Project_Typing
             if(lblChar.Text == userPressKey.ToString().ToUpper())
             {
                 score += 5;
-                lblScore.Text = "Score:" + score;
+                lblScore.Text = "Score: " + score;
                 lblChar.Location = getNewPoint();
                 lblChar.Text = GetRandomChar().ToString().ToUpper();
                 if (score % 25 ==0)
                 { 
-                    if(speed < 5 * ((score / 25)+1))
+                    if(speed < 2 * ((score / 25)+1))
                     {
-                        speed = 5 * ((score / 25)+1);
+                        speed = 2 * ((score / 25)+1);
                     }
                 }
                     
@@ -97,8 +131,8 @@ namespace Project_Typing
             }
             else
             {
-                score -= 5;
-                lblScore.Text = "Score:" + score;
+                handleFail();
+                
             }
         }
 

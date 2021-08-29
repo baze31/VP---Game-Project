@@ -16,7 +16,10 @@ namespace Project_Typing
             try
             {
                 string path = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\typing_save.txt";
-                File.SetAttributes(path, FileAttributes.Normal);
+                if (File.Exists(path))
+                {
+                    File.SetAttributes(path, FileAttributes.Normal);
+                }
                 using (FileStream fs = File.Create(path))
                 {
                     byte[] info = new UTF8Encoding(true).GetBytes(Globals.high_score.ToString());

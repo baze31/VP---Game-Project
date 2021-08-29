@@ -25,7 +25,6 @@ namespace Project_Typing
             lblChar.Location = getNewPoint();
             lblChar.Text = GetRandomChar().ToString().ToUpper();
         }
-
         private void gamePanel_Paint(object sender, PaintEventArgs e)
         {
 

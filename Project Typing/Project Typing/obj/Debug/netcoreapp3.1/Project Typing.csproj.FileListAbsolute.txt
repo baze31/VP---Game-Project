@@ -53,3 +53,4 @@ C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netco
 C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.dll
 C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.pdb
 C:\Users\Baze-PC\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project Typing.genruntimeconfig.cache
+C:\Users\jackb\Documents\GitHub\VP---Game-Project\Project Typing\Project Typing\obj\Debug\netcoreapp3.1\Project_Typing.Form2.resources

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Baze-PC\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj": {}
+    "C:\\Users\\jackb\\Documents\\GitHub\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Baze-PC\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj": {
+    "C:\\Users\\jackb\\Documents\\GitHub\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Baze-PC\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj",
+        "projectUniqueName": "C:\\Users\\jackb\\Documents\\GitHub\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj",
         "projectName": "Project Typing",
-        "projectPath": "C:\\Users\\Baze-PC\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj",
-        "packagesPath": "C:\\Users\\Baze-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Baze-PC\\VP---Game-Project\\Project Typing\\Project Typing\\obj\\",
+        "projectPath": "C:\\Users\\jackb\\Documents\\GitHub\\VP---Game-Project\\Project Typing\\Project Typing\\Project Typing.csproj",
+        "packagesPath": "C:\\Users\\jackb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jackb\\Documents\\GitHub\\VP---Game-Project\\Project Typing\\Project Typing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Baze-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jackb\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -49,12 +47,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.13, 3.1.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -63,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
